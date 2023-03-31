@@ -434,6 +434,7 @@ h2{
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    z-index: 999999;
 }
 
 #text11 #close, #text12 #close {
