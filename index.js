@@ -23,6 +23,13 @@ searchButton.addEventListener("click", () => {
     }
 });
 
+searchInput.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+      event.preventDefault(); // prevent form submission
+      searchButton.click(); // simulate a click on the search button
+    }
+  });
+
 
 var countdown = new Date("July 1, 2025 14:00:00").getTime();
 var x = setInterval(function() {
@@ -278,7 +285,6 @@ function openPopup45() {
 }   
 
 
-
 function closePopup() {
     document.getElementById("text").classList.remove("visible");
     document.getElementById("text1").classList.remove("visible");
@@ -330,6 +336,7 @@ function closePopup() {
     document.getElementById("text45").classList.remove("visible");
     document.getElementById("body").classList.remove("visible");
 }
+
 
 // function of changing image to next image 
 
