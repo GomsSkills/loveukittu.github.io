@@ -345,6 +345,8 @@ function nextimage() {
     document.getElementById("firstimg").classList.add("visiblepic2")
     document.getElementById("next").classList.add("hidden")
     document.getElementById("previousimg").classList.add("hidden")
+    document.getElementById("pic3next").classList.add("visiblepic3")
+    
 }
 
 function previousimg() {
@@ -352,6 +354,241 @@ function previousimg() {
     document.getElementById("firstimg").classList.remove("visiblepic2")
     document.getElementById("next").classList.remove("hidden")
     document.getElementById("previousimg").classList.remove("hidden")
+    document.getElementById("pic3next").classList.remove("visiblepic3")
+
+}
+
+// image3
+
+function pic3() {
+    document.getElementById("pic3").classList.add("visiblepic3");
+    document.getElementById("pic2").classList.add("visiblepic3");
+    document.getElementById("pic3previous").classList.add("visiblepic3")
+    document.getElementById("pic3next").classList.add("hidden")
+    document.getElementById("pic4next").classList.add("visiblepic4")
+
+}
+
+function pic2(){
+    document.getElementById("pic3").classList.remove("visiblepic3");
+    document.getElementById("pic2").classList.remove("visiblepic3");
+    document.getElementById("pic3previous").classList.remove("visiblepic3")
+    document.getElementById("pic3next").classList.remove("hidden")
+    document.getElementById("pic4next").classList.remove("visiblepic4");
+}
+
+// image4
+
+function pic4(){
+    document.getElementById("pic4").classList.add("visiblepic4");
+    document.getElementById("pic3").classList.add("visiblepic4");
+    document.getElementById("pic4previous").classList.add("visiblepic4");
+    document.getElementById("pic4next").classList.add("hidden");
+    document.getElementById("pic5next").classList.add("visiblepic5");
+}
+
+function pic3previous(){
+    document.getElementById("pic4").classList.remove("visiblepic4");
+    document.getElementById("pic3").classList.remove("visiblepic4");
+    document.getElementById("pic4previous").classList.remove("visiblepic4");
+    document.getElementById("pic4next").classList.remove("hidden");
+    document.getElementById("pic5next").classList.remove("visiblepic5");
+}
+
+// image5
+
+function pic5(){
+    document.getElementById("pic5").classList.add("visiblepic5");
+    document.getElementById("pic4").classList.add("visiblepic5");
+    document.getElementById("pic5previous").classList.add("visiblepic5");
+    document.getElementById("pic5next").classList.add("hidden");
+    document.getElementById("pic6next").classList.add("visiblepic6");
+}
+
+function pic4previous(){
+    document.getElementById("pic5").classList.remove("visiblepic5");
+    document.getElementById("pic4").classList.remove("visiblepic5");
+    document.getElementById("pic5previous").classList.remove("visiblepic5");
+    document.getElementById("pic5next").classList.remove("hidden");
+    document.getElementById("pic6next").classList.remove("visiblepic6");
+}
+
+// image6
+
+function pic6(){
+    document.getElementById("pic6").classList.add("visiblepic6");
+    document.getElementById("pic5").classList.add("visiblepic6");
+    document.getElementById("pic6previous").classList.add("visiblepic6");
+    document.getElementById("pic6next").classList.add("hidden");
+    document.getElementById("pic7next").classList.add("visiblepic7");
+}
+
+function pic5previous(){
+    document.getElementById("pic6").classList.remove("visiblepic6");
+    document.getElementById("pic5").classList.remove("visiblepic6");
+    document.getElementById("pic6previous").classList.remove("visiblepic6");
+    document.getElementById("pic6next").classList.remove("hidden");
+    document.getElementById("pic7next").classList.remove("visiblepic7");
+}
+
+// image7
+
+function pic7(){
+    document.getElementById("pic7").classList.add("visiblepic7");
+    document.getElementById("pic6").classList.add("visiblepic7");
+    document.getElementById("pic7previous").classList.add("visiblepic7");
+    document.getElementById("pic7next").classList.add("hidden");
+    document.getElementById("pic8next").classList.add("visiblepic8");
+}
+
+function pic6previous(){
+    document.getElementById("pic7").classList.remove("visiblepic7");
+    document.getElementById("pic6").classList.remove("visiblepic7");
+    document.getElementById("pic7previous").classList.remove("visiblepic7");
+    document.getElementById("pic7next").classList.remove("hidden");
+    document.getElementById("pic8next").classList.remove("visiblepic8");
+}
+
+// image8
+
+function pic8(){
+    document.getElementById("pic8").classList.add("visiblepic8");
+    document.getElementById("pic7").classList.add("visiblepic8");
+    document.getElementById("pic8previous").classList.add("visiblepic8");
+    document.getElementById("pic8next").classList.add("hidden");
+    document.getElementById("pic9next").classList.add("visiblepic9");
+}
+
+function pic7previous(){
+    document.getElementById("pic8").classList.remove("visiblepic8");
+    document.getElementById("pic7").classList.remove("visiblepic8");
+    document.getElementById("pic8previous").classList.remove("visiblepic8");
+    document.getElementById("pic8next").classList.remove("hidden");
+    document.getElementById("pic9next").classList.remove("visiblepic9");
+}
+
+// image9
+
+function pic9(){
+    document.getElementById("pic9").classList.add("visiblepic9");
+    document.getElementById("pic8").classList.add("visiblepic9");
+    document.getElementById("pic9previous").classList.add("visiblepic9");
+    document.getElementById("pic9next").classList.add("hidden");
+    document.getElementById("pic10next").classList.add("visiblepic10");
+}
+
+function pic8previous(){
+    document.getElementById("pic9").classList.remove("visiblepic9");
+    document.getElementById("pic8").classList.remove("visiblepic9");
+    document.getElementById("pic9previous").classList.remove("visiblepic9");
+    document.getElementById("pic9next").classList.remove("hidden");
+    document.getElementById("pic10next").classList.remove("visiblepic10");
+}
+
+// image10
+
+function pic10(){
+    document.getElementById("pic10").classList.add("visiblepic10");
+    document.getElementById("pic9").classList.add("visiblepic10");
+    document.getElementById("pic10previous").classList.add("visiblepic10");
+    document.getElementById("pic10next").classList.add("hidden");
+    document.getElementById("pic11next").classList.add("visiblepic11");
+}
+
+function pic9previous(){
+    document.getElementById("pic10").classList.remove("visiblepic10");
+    document.getElementById("pic9").classList.remove("visiblepic10");
+    document.getElementById("pic10previous").classList.remove("visiblepic10");
+    document.getElementById("pic10next").classList.remove("hidden");
+    document.getElementById("pic11next").classList.remove("visiblepic11");
+}
+
+// image11
+
+function pic11(){
+    document.getElementById("pic11").classList.add("visiblepic11");
+    document.getElementById("pic10").classList.add("visiblepic11");
+    document.getElementById("pic11previous").classList.add("visiblepic11");
+    document.getElementById("pic11next").classList.add("hidden");
+    document.getElementById("pic12next").classList.add("visiblepic12");
+}
+
+function pic10previous(){
+    document.getElementById("pic11").classList.remove("visiblepic11");
+    document.getElementById("pic10").classList.remove("visiblepic11");
+    document.getElementById("pic11previous").classList.remove("visiblepic11");
+    document.getElementById("pic11next").classList.remove("hidden");
+    document.getElementById("pic12next").classList.remove("visiblepic12");
+}
+
+// image12
+
+function pic12(){
+    document.getElementById("pic12").classList.add("visiblepic12");
+    document.getElementById("pic11").classList.add("visiblepic12");
+    document.getElementById("pic12previous").classList.add("visiblepic12");
+    document.getElementById("pic12next").classList.add("hidden");
+    document.getElementById("pic13next").classList.add("visiblepic13");
+}
+
+function pic11previous(){
+    document.getElementById("pic12").classList.remove("visiblepic12");
+    document.getElementById("pic11").classList.remove("visiblepic12");
+    document.getElementById("pic12previous").classList.remove("visiblepic12");
+    document.getElementById("pic12next").classList.remove("hidden");
+    document.getElementById("pic13next").classList.remove("visiblepic13");
+}
+
+// image13
+
+function pic13(){
+    document.getElementById("pic13").classList.add("visiblepic13");
+    document.getElementById("pic12").classList.add("visiblepic13");
+    document.getElementById("pic13previous").classList.add("visiblepic13");
+    document.getElementById("pic13next").classList.add("hidden");
+    document.getElementById("pic14next").classList.add("visiblepic14");
+}
+
+function pic12previous(){
+    document.getElementById("pic13").classList.remove("visiblepic13");
+    document.getElementById("pic12").classList.remove("visiblepic13");
+    document.getElementById("pic13previous").classList.remove("visiblepic13");
+    document.getElementById("pic13next").classList.remove("hidden");
+    document.getElementById("pic14next").classList.remove("visiblepic14");
+}
+
+// image14
+
+function pic14(){
+    document.getElementById("pic14").classList.add("visiblepic14");
+    document.getElementById("pic13").classList.add("visiblepic14");
+    document.getElementById("pic14previous").classList.add("visiblepic14");
+    document.getElementById("pic14next").classList.add("hidden");
+    document.getElementById("pic15next").classList.add("visiblepic15");
+}
+
+function pic13previous(){
+    document.getElementById("pic14").classList.remove("visiblepic14");
+    document.getElementById("pic13").classList.remove("visiblepic14");
+    document.getElementById("pic14previous").classList.remove("visiblepic14");
+    document.getElementById("pic14next").classList.remove("hidden");
+    document.getElementById("pic15next").classList.remove("visiblepic15");
+}
+
+// image15
+
+function pic15(){
+    document.getElementById("pic15").classList.add("visiblepic15");
+    document.getElementById("pic14").classList.add("visiblepic15");
+    document.getElementById("pic15previous").classList.add("visiblepic15");
+    document.getElementById("pic15next").classList.add("hidden");
+}
+
+function pic14previous(){
+    document.getElementById("pic15").classList.remove("visiblepic15");
+    document.getElementById("pic14").classList.remove("visiblepic15");
+    document.getElementById("pic15previous").classList.remove("visiblepic15");
+    document.getElementById("pic15next").classList.remove("hidden");
 }
 
 // Functions ends 
