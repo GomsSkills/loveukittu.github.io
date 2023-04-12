@@ -150,9 +150,6 @@ h2{
     margin: 0px 0px 5px 0px;
 }
 
-.box .video{
-    margin: 0px 0px 0px 0px;
-}
 
 /* text p end  */
 
@@ -271,6 +268,9 @@ h2{
     justify-content: center;
     position: relative;
 }
+
+
+
 
 
 #text h6,
@@ -500,6 +500,54 @@ h2{
 #nextimg #previousimg.hidden{
     display: flex;
 }
+
+/* video  */
+
+
+#nextvideo video {
+    display: none;
+}
+
+#nextvideo #nextvideo2 {
+    display: flex;
+    position:absolute;
+    right: 0;
+    top: 400px;
+    font-size: 30px ;
+    font-weight: 800;
+    color: var(--grey);
+}
+
+#nextvideo #previousvideo{
+    color: var(--grey);
+    font-size: 25px;
+    font-weight: 800;
+    display: none;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+
+#nextvideo video.visiblevideo {
+    display: block;
+    opacity: 1;
+}
+
+#text12 #video.visiblevideo {
+    display: none;
+    opacity: 0;
+}
+
+#nextvideo #nextvideo2.hidden {
+    display: none;
+}
+
+#nextvideo #previousvideo.hidden {
+    display: flex;
+}
+
+
+/* video ends  */
 
 
 

@@ -301,6 +301,8 @@ function closePopup() {
         document.getElementById("text12").classList.remove("visible");
         var video = document.getElementById("video");
         video.pause();
+        var video2 = document.getElementById("video2");
+        video2.pause();
     document.getElementById("text13").classList.remove("visible");
     document.getElementById("text14").classList.remove("visible");
     document.getElementById("text15").classList.remove("visible");
@@ -336,6 +338,28 @@ function closePopup() {
     document.getElementById("text45").classList.remove("visible");
     document.getElementById("body").classList.remove("visible");
 }
+
+// function of changing video to the next video 
+
+function nextvideo() {
+    document.getElementById("video2").classList.add("visiblevideo");
+    document.getElementById("video").classList.add("visiblevideo");
+    document.getElementById("nextvideo2").classList.add("hidden");
+    document.getElementById("previousvideo").classList.add("hidden");
+    var video = document.getElementById("video");
+        video.pause();
+
+}
+
+function previousvideo() {
+    document.getElementById("video2").classList.remove("visiblevideo");
+    document.getElementById("video").classList.remove("visiblevideo");
+    document.getElementById("nextvideo2").classList.remove("hidden");
+    document.getElementById("previousvideo").classList.remove("hidden");
+    var video2 = document.getElementById("video2");
+        video2.pause();
+}
+
 
 
 // function of changing image to next image 
